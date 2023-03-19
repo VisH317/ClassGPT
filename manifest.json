@@ -10,5 +10,9 @@
     "permissions": [
         "contextMenus",
         "tabs"
-    ]
+    ],
+    "background": {
+        "scripts": ["background.js"],
+        "persistent": false
+    }
 }
